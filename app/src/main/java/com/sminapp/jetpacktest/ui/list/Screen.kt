@@ -39,6 +39,11 @@ fun Previewitem(){
         getCatList().map { item->
           BlogCategory(img = item.img, title = item.title, subtitle = item.subtitle )
         }
+
+
+
+
+
     }*/
 //    BlogCategory(img = R.drawable.ic_launcher_foreground, title = "Android ", subtitle = "Android Jetpack Compose Lists" )
 }
