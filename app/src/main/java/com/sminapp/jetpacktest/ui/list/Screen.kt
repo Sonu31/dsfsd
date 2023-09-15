@@ -28,7 +28,7 @@ import com.sminapp.jetpacktest.R
 @Preview(heightDp = 500)
 @Composable
 fun Previewitem(){
-
+//Sonu
     LazyColumn(content ={
         items (getCatList()){item->
             BlogCategory(img = item.img, title = item.title, subtitle = item.subtitle )
